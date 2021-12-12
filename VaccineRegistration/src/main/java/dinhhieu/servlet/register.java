@@ -18,8 +18,7 @@ public class register extends HttpServlet {
 	private PeopleDao peopleDao = new PeopleDao();
        
     public register() {
-        super();
-        // TODO Auto-generated constructor stub
+      
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
